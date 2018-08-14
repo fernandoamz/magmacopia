@@ -1,0 +1,51 @@
+body{
+    background-image: url('../img/background.jpg');
+    font-family: 'Arial'
+}
+
+.img-logo{
+    height: 50px;
+    width: 217px;
+}
+
+navPrincipal {
+    display: block;
+    padding: 15px;
+}
+
+.navPrincipal > a {
+    color: white;
+    float: right;
+    padding: 20px;
+}
+
+.Subody{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: #f84848;
+    font-size:  3.25em;
+    margin-top: 10%;
+}
+
+.content {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: grey;
+}
+
+#tecnologies{
+    margin-top: 70px;
+    font-size:  1.20em;
+}
+
+ul#tecnologies li {
+    display:inline;
+    padding: 10px;
+}
+
+ul#tecnologies li:before{
+    color: #f84848;
+    content: "• ";
+}
